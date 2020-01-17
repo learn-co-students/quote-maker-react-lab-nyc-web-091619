@@ -6,23 +6,23 @@ export const addQuote = quote => {
   }
 }
 
-export const removeQuote = quoteID => {
+export const removeQuote = quoteId => {
   return {
     type: 'REMOVE_QUOTE',
-    quoteID
+    quoteId
   }
 }
 
-export const upVoteQuote = quoteID => {
+export const upvoteQuote = quoteId => {
   return {
     type: 'UPVOTE_QUOTE',
-    quoteID
+    quoteId
   }
 }
 
-export const downVoteQuote = quoteID => {
+export const downvoteQuote = quoteId => {
   return {
     type: 'DOWNVOTE_QUOTE',
-    quoteID
+    quoteId
   }
 }
